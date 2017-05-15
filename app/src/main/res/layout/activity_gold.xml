@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="sdu.sitta.sob2.GOLD">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/HeadSOB"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ถ้าเห็นข้อความนี้อยู่ แปลว่าพลาดแล้ว"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/imagePotato2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/potato"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/HeadSOB"/>
+
+</RelativeLayout>
